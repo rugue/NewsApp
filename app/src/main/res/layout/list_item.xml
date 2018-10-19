@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/padding_16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/headline"
+            style="@style/headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Long placeholder location" />
+
+        <TextView
+            android:id="@+id/author"
+            style="@style/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="John Smith" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Mar 6, 2010 " />
+
+        <TextView
+            android:id="@+id/time"
+            style="@style/time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="3:00 PM" />
+
+        <TextView
+            android:id="@+id/section"
+            style="@style/section"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            tools:text="Section Here" />
+
+    </LinearLayout>
+
+</LinearLayout>
