@@ -126,10 +126,6 @@ public final class QueryUtils {
         return output.toString();
     }
 
-
-
-
-
     /**
      * Return a list of {@link News} objects that has been built up from
      * parsing a JSON response.
@@ -176,7 +172,6 @@ public final class QueryUtils {
                         author += firstObject.getString("webTitle") + ". ";
                     }
                 }
-
 
                 // Create a new {@link Earthquake} object with the section, headline, date, url
                 // and author from the JSON response.
